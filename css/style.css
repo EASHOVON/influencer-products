@@ -1,0 +1,29 @@
+/* Google Fonts Start */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap");
+/* Google Fonts End */
+
+/* Common Css Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1142px;
+  margin: 0 auto;
+}
+/* Common Css End */
+
+/* Header Section Start */
+nav {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+/* Header Section End */
