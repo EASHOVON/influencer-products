@@ -15,12 +15,14 @@ body {
 }
 
 .container {
-  max-width: 1142px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 /* Common Css End */
 
 /* Header Section Start */
+
+/* Menu bar Start */
 nav {
   margin: 40px 0;
   display: flex;
@@ -54,4 +56,59 @@ nav {
   font-size: 23px;
   color: black;
 }
+
+/* Menu bar End */
+
+/* Banner Start */
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 80px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.banner-heading {
+  font-size: 52px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.banner-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-top: 10px;
+}
+
+.banner-btn {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.banner-btn i {
+  margin-left: 10px;
+}
+
+.banner-right {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-right img {
+  width: 70%;
+  transition: transform 0.9s ease-in-out;
+}
+
+.banner-right img:hover {
+  transform: scale(1.1);
+}
+/* Banner End */
+
 /* Header Section End */
