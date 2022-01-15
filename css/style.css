@@ -90,6 +90,7 @@ nav {
   padding: 10px 24px;
   border-radius: 25px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .banner-btn i {
@@ -112,3 +113,14 @@ nav {
 /* Banner End */
 
 /* Header Section End */
+
+/* Logo Section Start */
+.logo-body {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(128, 128, 128, 0.575);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.575);
+  padding: 30px 0;
+  margin: 80px 0;
+}
+/* Logo Section End */
