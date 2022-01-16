@@ -132,6 +132,8 @@ nav {
 }
 /* Logo Section End */
 
+/* Popular Collection Start */
+
 .popular-heading {
   font-size: 28px;
   font-weight: 600;
@@ -200,3 +202,44 @@ nav {
 .see-more-btn a > i {
   margin-left: 10px;
 }
+
+/* Popular Collection End */
+
+/* Featured Products Section Start */
+.featured-products {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  align-items: center;
+  grid-column-gap: 80px;
+  margin: 80px 0;
+}
+
+.featured-heading {
+  font-size: 44px;
+  color: #0a0826;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.featured-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #6c6c6c;
+  padding-right: 150px;
+  margin-bottom: 25px;
+}
+
+.featured-btn {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.featured-btn i {
+  margin-left: 10px;
+}
+/* Featured Products Section End */
